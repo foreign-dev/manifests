@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    
+    <!-- JARL PENGUIN REPOS -->
+  <project path="device/motorola/montana" name="JarlPenguin/android_device_motorola_montana" />
+  <project path="device/motorola/msm8937-common" name="JarlPenguin/android_device_motorola_msm8937-common-1" revision="staging/lineage-16.0" />
+	<project path="kernel/motorola/msm8937" name="HyperTeam/android_kernel_motorola_msm8937" />
+	<project path="vendor/motorola" name="JarlPenguin/proprietary_vendor_motorola" />
+
+	<!-- PROJECT DEPENDENCIES -->
+  <project path="tools/metalava" name="platform/tools/metalava" groups="pdk,tools" remote="aosp" />
+  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />-->
+  <project path="external/turbine" name="platform/external/turbine" groups="pdk" remote="aosp" />
+	<project path="external/jarjar" name="platform/external/jarjar" groups="pdk" remote="aosp" />
+	<project path="external/proguard" name="LineageOS/android_external_proguard" groups="pdk"/>
+	<project path="prebuilts/r8" name="platform/prebuilts/r8" groups="pdk" clone-depth="1" remote="aosp" />
+	<project path="external/apache-http" name="platform/external/apache-http" groups="pdk" remote="aosp" />
+	<project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aosp" />
+	<project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk" />
+  <project path="external/v8" name="LineageOS/android_external_v8" groups="pdk" />
+	<project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+	<project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" remote="aosp" />
+	<project path="external/error_prone" name="platform/external/error_prone" groups="pdk" remote="aosp" />
+	<project path="external/volley" name="platform/external/volley" groups="pdk" remote="aosp" />
+	<project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+	<project path="system/qcom" name="LineageOS/android_system_qcom" />
+    
+</manifest>
